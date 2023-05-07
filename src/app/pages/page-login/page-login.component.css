@@ -1,0 +1,22 @@
+.myContainer{
+  margin-top: 200px;
+  max-width: 500px;
+}
+.my-card{
+  padding: 20px 10px;
+  height: 350px;
+  background-color: #dadedf;
+}
+.inputBg{
+  background-color: #e5faff !important;
+  font-weight: bold;
+}
+.user-icon{
+  font-size: 70px;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+*{
+  font-family: Poppins,sans-serif;
+}
+

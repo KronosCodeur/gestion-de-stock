@@ -1,0 +1,22 @@
+<div class="container  myContainer">
+  <div class="card text-center justify-content-md-center rounded-4 shadow my-card ">
+    <i class="fa-solid fa-user fa-fade user-icon text-center text-success"></i>
+    <h2 class="card-title text-center text-success">Se Connecter</h2>
+    <div class="card-body ">
+      <div class="mb-3">
+        <input type="email" class="form-control rounded-3 inputBg text-success"  placeholder="Email">
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control rounded-3 inputBg text-success" placeholder="Mot de passe">
+      </div>
+      <div class="mb-3 d-flex justify-content-between mt-4">
+        <a [routerLink]="['/inscrire']"  class="btn btn-link text-success" type="button">S'inscrire</a>
+        <button class="btn btn-success" type="button">
+          <i class="fa-solid fa-check"></i>&nbsp;
+          Se Connecter
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
